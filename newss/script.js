@@ -6,7 +6,7 @@ function screenshot(){
 	});
 }
 
-let btnDownload= document.getElementById('download');
+/*let btnDownload= document.getElementById('download');
 btnDownload.addEventListener("click",function(){
 var link = document.createElement('a');
 link.href = 'pic1.png';
@@ -14,9 +14,9 @@ link.download = 'Download.png';
 document.body.appendChild(link);
 link.click();
 //document.body.removeChild(link);
-});
+});*/
 
-/*let btnDownload = document.getElementById('download');
+let btnDownload = document.getElementById('download');
 let img = document.getElementById('image');
  
 btnDownload.addEventListener('click', () => {
